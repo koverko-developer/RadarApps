@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whait"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/lin__1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:text="Гос. номер"
+            android:textColor="@color/common_google_signin_btn_text_light_focused"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/n_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="вфвфвфф"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:text="Нарушение"
+            android:textColor="@color/common_google_signin_btn_text_light_focused"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/n_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Двойная сплошная"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:text="Место"
+            android:textColor="@color/common_google_signin_btn_text_light_focused"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/n_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Увфвфывфвыфвф"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

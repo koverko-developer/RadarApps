@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Этот ли регистрационный номер?"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tv_reg_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/tv_close"
+            android:text="Ввести вручную"
+            android:textColor="#4355ff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="ДА"
+            android:textColor="#4355ff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/tv_ok"
+            android:text="НЕТ"
+            android:textColor="#4355ff"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
